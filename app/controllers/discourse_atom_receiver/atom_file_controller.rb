@@ -43,7 +43,7 @@ module DiscourseAtomReceiver
 
       unless AtomFileController.touch_changed(file)
         # If we couldn't touch it, clear the cache and try again
-        clear_cached_paths
+        AtomFileController.clear_cached_paths
         AtomFileController.touch_changed(file)
       end
 
