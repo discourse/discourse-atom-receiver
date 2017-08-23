@@ -1,6 +1,6 @@
 ### discourse-atom-receiver
 
-Install this plugin in development mode, and `discourse-atom-trigger` as an
+Install this plugin in development mode, and [discourse-atom-trigger](https://github.com/discourse/discourse-atom-trigger) as an
 atom package, to receive pings from Atom when a file is saved so it can
 autoreload.
 
