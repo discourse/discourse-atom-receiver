@@ -2,7 +2,7 @@ require 'fileutils'
 
 module DiscourseAtomReceiver
   class AtomFileController < ApplicationController
-    skip_before_filter :check_xhr
+    skip_before_action :check_xhr
 
     def self.clear_cached_paths
       @@cached_paths = nil
